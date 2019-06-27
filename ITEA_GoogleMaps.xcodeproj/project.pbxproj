@@ -19,6 +19,9 @@
 		86FFB1D322BC0BC700EBC831 /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB1D222BC0BC700EBC831 /* UserInfoManager.swift */; };
 		86FFB1F822C4A0CD00EBC831 /* SendUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB1F722C4A0CD00EBC831 /* SendUserView.swift */; };
 		86FFB1FA22C4B4EB00EBC831 /* ButtonExtantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB1F922C4B4EB00EBC831 /* ButtonExtantion.swift */; };
+		86FFB1FC22C5377A00EBC831 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB1FB22C5377A00EBC831 /* WebViewController.swift */; };
+		86FFB1FF22C53C2300EBC831 /* CoueseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB1FE22C53C2300EBC831 /* CoueseTableViewCell.swift */; };
+		86FFB20122C53D1600EBC831 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FFB20022C53D1600EBC831 /* CourseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		86FFB1D222BC0BC700EBC831 /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		86FFB1F722C4A0CD00EBC831 /* SendUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendUserView.swift; sourceTree = "<group>"; };
 		86FFB1F922C4B4EB00EBC831 /* ButtonExtantion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtantion.swift; sourceTree = "<group>"; };
+		86FFB1FB22C5377A00EBC831 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		86FFB1FE22C53C2300EBC831 /* CoueseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoueseTableViewCell.swift; sourceTree = "<group>"; };
+		86FFB20022C53D1600EBC831 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 		DC59B91531B214E880DC8070 /* Pods-ITEA_GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITEA_GoogleMaps.release.xcconfig"; path = "Target Support Files/Pods-ITEA_GoogleMaps/Pods-ITEA_GoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +61,7 @@
 		86078F6C22B2AEAD00A6E003 = {
 			isa = PBXGroup;
 			children = (
+				86FFB1FD22C53C0200EBC831 /* Cell */,
 				86FFB1F622C4A0A800EBC831 /* Extantion */,
 				86FFB1F522C4A09D00EBC831 /* View */,
 				86FFB1CB22BC048300EBC831 /* MarkerInfoView */,
@@ -100,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				86078F7A22B2AEAD00A6E003 /* ViewController.swift */,
+				86FFB1FB22C5377A00EBC831 /* WebViewController.swift */,
+				86FFB20022C53D1600EBC831 /* CourseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +144,14 @@
 				86FFB1F922C4B4EB00EBC831 /* ButtonExtantion.swift */,
 			);
 			path = Extantion;
+			sourceTree = "<group>";
+		};
+		86FFB1FD22C53C0200EBC831 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				86FFB1FE22C53C2300EBC831 /* CoueseTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A3DBE7AE5410364DAD5567F5 /* Frameworks */ = {
@@ -277,13 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FFB1FF22C53C2300EBC831 /* CoueseTableViewCell.swift in Sources */,
 				86FFB1D122BC0A3A00EBC831 /* UserInfo.swift in Sources */,
 				86FFB1FA22C4B4EB00EBC831 /* ButtonExtantion.swift in Sources */,
+				86FFB20122C53D1600EBC831 /* CourseViewController.swift in Sources */,
 				86FFB1CD22BC04BF00EBC831 /* MarkerInfoView.swift in Sources */,
 				86FFB1D322BC0BC700EBC831 /* UserInfoManager.swift in Sources */,
 				86FFB1F822C4A0CD00EBC831 /* SendUserView.swift in Sources */,
 				86078F7B22B2AEAD00A6E003 /* ViewController.swift in Sources */,
 				86078F7922B2AEAD00A6E003 /* AppDelegate.swift in Sources */,
+				86FFB1FC22C5377A00EBC831 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
